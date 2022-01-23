@@ -13,7 +13,7 @@ int main(){
 	cout<<"Masukkan nama file : "<<endl;
 	string input;
 	cin>>input;
-	string dir = "../test/"+input;
+	string dir = "./test/"+input;
 	ifstream testfile (dir);
   	if (testfile.is_open()){
     	while ( getline (testfile,line) ){
